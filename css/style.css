@@ -1,0 +1,76 @@
+#container {
+    height: auto;
+    display: grid;
+
+    
+    
+   
+    grid-template-areas: 
+    'he he'
+    'se se'
+    'di di2'
+    'na na'
+    ;
+}
+
+header{
+    grid-area: he;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+img{
+    grid-area: he;
+    display: flex;
+    width: 150px;
+    height: auto;
+}
+
+section{
+    grid-area: se;
+    display: flex;
+    font-size: 20px;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bauhaus 93';
+    width: auto;
+    height: 50px;
+}
+
+
+#di{
+    grid-area: di;
+    display: flex;
+    flex:1;
+    justify-content: space-around;
+    align-items: stretch;
+    background-color: lightgray;
+    width: auto;
+    height: 350px;
+}
+
+#di2{
+    grid-area: di2;
+    display: flex;
+    flex:1;
+    justify-content: space-around;
+    align-items: stretch;
+    background-color: lightgray;
+    width: auto;
+    height: 350px;
+}
+
+nav{
+    grid-area: na;
+    display: flex;
+    font-size: 20px;
+    background-color: lightgray;
+    justify-content: center;
+ 
+    font-family: 'Bauhaus 93';
+    width: auto;
+    height: 250px;
+}
